@@ -12,8 +12,11 @@ Webscraping the IMDB 2024 movie data using selenium and making a interactive web
 
 # Data Organization:
 Categorizing movies genre-wise.
+
 Saving the data as individual CSV files for each genre.
+
 Merging all CSV files into a single, comprehensive dataset.
+
 
 # Database Management:
 Storing the combined dataset in an SQL database for efficient querying.
