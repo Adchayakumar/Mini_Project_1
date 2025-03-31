@@ -1,7 +1,7 @@
-# Mini_Project_1
+# The IMDb Movie Data Analysis 2024
 Webscraping the IMDB 2024 movie data using selenium and making a interactive website using streamlit .
 
-## The IMDb Movie Data Analysis 2024 project involves:
+##  project involves:
 
 # Data Extraction: Using Selenium to scrape movie details such as:
 * Movie Names
@@ -24,7 +24,7 @@ Storing the combined dataset in an SQL database for efficient querying.
 # Data Visualization:
 * Building an interactive and user-friendly dashboard using Streamlit ,
 * Providing filtering options to explore movies based on genres, ratings, and more ,
-* Creating visualizations to answer key questions about the 2024 movie landscape ,
+  
 
 # Key Features:
 * Automated Web Scraping: Extracts data from IMDb using Selenium.
