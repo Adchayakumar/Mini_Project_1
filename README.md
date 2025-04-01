@@ -37,6 +37,14 @@ Storing the combined dataset in an SQL database for efficient querying.
 * The MYMDB Score System balances ratings and vote counts to rank movies fairly. It prevents movies with few votes but high ratings from dominating and gives more weight to movies with many positive vote
 
  * Interactive filter options - you can choose movie based on Movie name, genere , ratings , voting count , duration and our favourite Mymdb Score
+# Mymdb Sore system:
+* Bayesian Average formule
+    * score = (V*R)+(M*C)/V+M
+ ### Understanding the Formula : 
+ V (Voting Count): Number of votes received by the movie.
+ R (Rating): Average rating of the movie.
+ M (Minimum Votes): A threshold value (e.g., only consider movies with at least 1000 votes).
+ C (Mean Rating Across All Movies): The global average rating of all movies in the dataset.
 
 # Technologies Used:
 * Python: Core programming language.
