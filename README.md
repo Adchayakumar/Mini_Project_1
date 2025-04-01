@@ -4,7 +4,7 @@ Webscraping the IMDB 2024 movie data using selenium and making a interactive web
 ## Problem statement:
 Extracting and analysis the IMDB 2024 Movie data. Finally provide interactive visualizations and filtering functionality using Streamlit
 
-## Separate the Problem In 4 parts
+## We Separate the problem statement Into 4 parts
   * Extract (Web Scraping) the movie information from the IMDB website
   * Clean data & Analyze the pattern
   * Inser the data into Mysql data base server for efficient query
