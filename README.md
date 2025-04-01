@@ -41,10 +41,10 @@ Storing the combined dataset in an SQL database for efficient querying.
 * Bayesian Average formule
     * score = (V*R)+(M*C)/V+M
  ### Understanding the Formula : 
- V (Voting Count): Number of votes received by the movie.
- R (Rating): Average rating of the movie.
- M (Minimum Votes): A threshold value (e.g., only consider movies with at least 1000 votes).
- C (Mean Rating Across All Movies): The global average rating of all movies in the dataset.
+ * V (Voting Count): Number of votes received by the movie.
+ *  R (Rating): Average rating of the movie.
+ *  M (Minimum Votes): A threshold value (e.g., only consider movies with at least 1000 votes).
+ *  C (Mean Rating Across All Movies): The global average rating of all movies in the dataset.
 
 # Technologies Used:
 * Python: Core programming language.
