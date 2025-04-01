@@ -5,9 +5,10 @@ Webscraping the IMDB 2024 movie data using selenium and making a interactive web
 Extracting and analysis the IMDB 2024 Movie data. Finally provide interactive visualizations and filtering functionality using Streamlit
 
 ## We Separate the problem statement Into 4 parts
-  * The MYMDB Score System  balances ratings and vote counts to rank movies fairly. It prevents movies with few votes but high ratings from  dominating and gives more weight to movies with many positive vote
-  
- * Interactive filter options - you can choose movie based on Movie name, genere , ratings , voting count , duration and our favourite Mymdb Score
+ * Extract (Web Scraping) the movie information from the IMDB website
+ * Clean data & Analyze the pattern
+ * Inser the data into Mysql data base server for efficient query
+ * Make a interactive dashboard using streamlit
 
 # Data Extraction: Using Selenium to scrape movie details such as:
 * Movie Names
@@ -33,10 +34,9 @@ Storing the combined dataset in an SQL database for efficient querying.
   
 
 # Key Features:
-* Automated Web Scraping: Extracts data from IMDb using Selenium.
-* Genre-wise CSV Export: Saves organized data for easy access.
-* SQL Integration: Efficient data storage and retrieval.
-* Interactive Dashboard: Built with Streamlit for custom filtering and insights.
+* The MYMDB Score System balances ratings and vote counts to rank movies fairly. It prevents movies with few votes but high ratings from dominating and gives more weight to movies with many positive vote
+
+ * Interactive filter options - you can choose movie based on Movie name, genere , ratings , voting count , duration and our favourite Mymdb Score
 
 # Technologies Used:
 * Python: Core programming language.
